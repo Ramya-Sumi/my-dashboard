@@ -1,0 +1,17 @@
+.container-left{
+    width:125px;
+    height:2466px;
+    margin-top:100px;
+    border-radius: 0px 40px 0px 0px;
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+
+}
+.icon-left{
+    display: grid;
+    gap: 61px;
+    margin-left: 38px;
+}
+.icon-left img{
+    width: 35px;
+    height: 35px;
+}
