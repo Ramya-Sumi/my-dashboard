@@ -12,10 +12,10 @@ const Middlerow2 = () => {
         <div className='view-text'>view all</div>
         <div className="search-container1">
         <input className="input-search1" type="text" placeholder="Search" />
-        <img className="search-icon1" src={search} alt="search" />
+        <img className="search-icon1" src={search} alt="search an item" />
         </div>
         <div className="filter-container1">
-        <img className="filter" src={filter} alt="search" />
+        <img className="filter" src={filter} alt="search an item" />
         <div className='filter-txt'>Filters</div>
         </div>
         </div>
