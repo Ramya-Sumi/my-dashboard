@@ -12,9 +12,9 @@ const Rightmenu = () => {
     <div className="calendar-container">
         <div className="calendar-header">
         <div className='cal-main-div'>
-        <div className='leftarrow-div'><img src={leftarrow} className='leftarrow'/></div>
+        <div className='leftarrow-div'><img src={leftarrow} alt="" className='leftarrow'/></div>
         <h1 className='month-style'>March</h1>
-        <div className='rightarrow-div'><img src={rightarrow} className='rightarrow'/></div>
+        <div className='rightarrow-div'><img src={rightarrow} alt=""  className='rightarrow'/></div>
 
         </div>
         </div>

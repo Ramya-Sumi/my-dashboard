@@ -9,7 +9,7 @@ const Middlerow = () => {
     <div className="top-section">
         <div className='meet-main-menu'>
             <div className='meet-info'>Today Interviews Meetings Info</div>
-            <div className='dot-icon'><img src={dot} alt="Three dots"/></div>
+            <div className='dot-icon'><img src={dot} alt=""/></div>
         </div>
         <div className='line2-1'></div>
     </div>
@@ -21,18 +21,18 @@ const Middlerow = () => {
             <div className="prof-menu" key={index}>
               <div className='menu1-prof'>
                 <div className='profile-boy'>
-                  <img src={meetingdata.image} alt="profile" />
+                  <img src={meetingdata.image} alt="" />
                 </div>
                 <div>{meetingdata.name}</div>
                 <div>{meetingdata.role}</div>
                 <div className='icons-menu-bar'>
                   <div className='calen-menu'>
-                    <div><img src={calender} alt="calendar" /></div>
+                    <div><img src={calender} alt="" /></div>
                     <div>19th Feb 2024</div>
                   </div>
                   <div className='line-cal'></div>
                   <div className='clock-menu'>
-                    <div><img src={clock} alt="clock" /></div>
+                    <div><img src={clock} alt="" /></div>
                     <div>10.30 A.M</div>
                   </div>
                 </div>
