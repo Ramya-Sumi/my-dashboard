@@ -1,14 +1,12 @@
-import React from 'react';
+import React from 'react'
+
 import leftarrow from '../assets/arrow-left.svg';
 import rightarrow from '../assets/arrow-side.svg';
-import { hiringdata } from './hiring';
-import { activitydata } from './hiring';
-import { upcomingdata } from './hiring';
-
-const Rightmenu = () => {
+const RightBar = ({ upcomingdata, activitydata, hiringdata }) => {
   return (
-    <>
-      <div className="calendar-container">
+  <>
+  <div className="right-column">
+  <div className="calendar-container">
         <div className="calendar-header">
           <div className='cal-main-div'>
             <div className='leftarrow-div'>
@@ -170,8 +168,9 @@ const Rightmenu = () => {
           })
         }
       </div>
-    </>
-  );
+        </div>
+  </>
+  )
 }
 
-export default Rightmenu;
+export default RightBar

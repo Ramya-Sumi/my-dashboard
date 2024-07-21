@@ -2,11 +2,12 @@ import React from 'react'
 import clock from '../assets/clock.svg'
 import dot from '../assets/dot.svg'
 import calender from '../assets/calender.svg'
-import {meetinginfo} from './hiring'
-const Middlerow = () => {
+
+const MiddleRow = ({meetinginfo}) => {
   return (
-    <>
-    <div className="top-section">
+   <>
+   <div className="middle-row-1">
+   <div className="top-section">
         <div className='meet-main-menu'>
             <div className='meet-info'>Today Interviews Meetings Info</div>
             <div className='dot-icon'><img src={dot} alt=""/></div>
@@ -69,9 +70,9 @@ const Middlerow = () => {
       }
     </div>
   </div>
-  {/* <div className='scroll-bar'></div> */}
-    </>
+        </div>
+   </>
   )
 }
 
-export default Middlerow
+export default MiddleRow

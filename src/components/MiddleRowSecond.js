@@ -1,13 +1,13 @@
-import React from 'react';
-import { postedjobdata } from './hiring';
+import React from 'react'
 import arrowup from '../assets/arrowup.svg';
 import search from '../assets/search.svg';
 import filter from '../assets/filter.svg';
 
-const Middlerow2 = () => {
+const MiddleRowSecond = ({postedjobdata}) => {
   return (
-    <>
-      <div className='posted-menu'>
+<>
+<div className="middle-row-2">
+<div className='posted-menu'>
         <div className='post-info'>Posted Jobs</div>
         <div className='view-text'>view all</div>
         <div className="search-container1">
@@ -57,8 +57,9 @@ const Middlerow2 = () => {
           })
         }
       </div>
-    </>
-  );
+        </div>
+</>
+  )
 }
 
-export default Middlerow2;
+export default MiddleRowSecond

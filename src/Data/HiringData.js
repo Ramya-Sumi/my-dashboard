@@ -11,7 +11,6 @@ import python from '../assets/python.svg'
 import java from '../assets/java.svg'
 import angular from '../assets/angular.svg'
 import eye from '../assets/eye.svg'
-
 import profile_boy from '../assets/boy-prof.svg'
 import profile_girl from '../assets/girl-prof.svg'
 

@@ -1,12 +1,14 @@
 import React from 'react'
+
 import filter from '../assets/filter.svg'
-import {candidatedata} from './hiring'
 import reject from '../assets/reject.svg';
 import search from '../assets/search.svg';
-const Bottommenu = () => {
+
+const BottomMenu = ({candidatedata}) => {
   return (
-    <>
-     <div className='can-menu'>
+<>
+<div className="bottom-row">
+<div className='can-menu'>
         <div className='can-info'>Candidate Status</div>
         <div className='view-text'>view all</div>
         <div className="search-container1">
@@ -61,8 +63,9 @@ const Bottommenu = () => {
         })
         }
         </table>
-    </>
+        </div>
+</>
   )
 }
 
-export default Bottommenu
+export default BottomMenu

@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import Dashboard from './components/Dashboard';
+import {meetinginfo} from './Data/HiringData';
+import {postedjobdata} from './Data/HiringData';
+import {candidatedata} from './Data/HiringData';
+import {upcomingdata} from './Data/HiringData';
+import {activitydata} from './Data/HiringData';
+import {hiringdata} from './Data/HiringData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
+    <Dashboard
+      meetinginfo={meetinginfo}
+      postedjobdata={postedjobdata}
+      candidatedata={candidatedata}
+      upcomingdata={upcomingdata}
+      activitydata={activitydata}
+      hiringdata={hiringdata}
+    />
   </React.StrictMode>
 );
 
