@@ -1062,8 +1062,9 @@ padding-top: 20px;
   line-height: 24px;
   display: flex;
   font-size: 11px;
+  gap: 45px;
   text-align: left;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 .up-menu-act{
@@ -1083,7 +1084,7 @@ padding-top: 20px;
   font-family: 'Poppins';
   font-weight: 400;
   color: #3E3E3E;
-  justify-content: space-between;
+  gap:24px;
   line-height: 24px;
   display: flex;
   font-size: 11px;
